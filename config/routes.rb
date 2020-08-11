@@ -3,4 +3,6 @@ Rails.application.routes.draw do
 
   #rootが変更された時のための保険
   #get '/signup', to:'users#new'
+
+  resources:users
 end

@@ -13,6 +13,10 @@ gem 'rails', '~> 6.0.3', '>= 6.0.3.2'
 # パスワード使うために必要なので追記（6章6.3.1参照）
 gem 'bcrypt'
 
+# Bootstrapを使うために追記（５章参照）
+gem 'bootstrap-sass'
+gem 'jquery-rails'
+
 
 # Use Puma as the app server
 gem 'puma', '~> 4.1'
