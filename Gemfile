@@ -10,6 +10,9 @@ gem 'rails', '~> 6.0.3', '>= 6.0.3.2'
 # Use sqlite3 as the database for Active Record
 #gem 'sqlite3', '~> 1.4'
 
+# パスワード使うために必要なので追記（6章6.3.1参照）
+gem 'bcrypt'
+
 
 # Use Puma as the app server
 gem 'puma', '~> 4.1'
@@ -51,6 +54,9 @@ group :test do
   # Adds support for Capybara system testing and selenium driver
   gem 'capybara', '>= 2.15'
   gem 'selenium-webdriver'
+  #テスト色付け用の追記
+  gem 'rails-controller-testing'
+  gem 'minitest-reporters'
   # Easy installation and use of web drivers to run system tests with browsers
   gem 'webdrivers'
 end

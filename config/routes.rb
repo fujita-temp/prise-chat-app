@@ -1,3 +1,6 @@
 Rails.application.routes.draw do
-  root 'application#hello'
+  root 'users#new'
+
+  #rootが変更された時のための保険
+  #get '/signup', to:'users#new'
 end
