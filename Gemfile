@@ -17,6 +17,12 @@ gem 'bcrypt'
 gem 'bootstrap-sass'
 gem 'jquery-rails'
 
+#サンプルユーザー作成のために追記（10章参照）
+gem 'faker'
+
+#ページネーションのために追記（10章参照）
+gem 'will_paginate'
+gem 'bootstrap-will_paginate'
 
 # Use Puma as the app server
 gem 'puma', '~> 4.1'
