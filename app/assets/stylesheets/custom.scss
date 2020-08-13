@@ -9,6 +9,7 @@ $gray-medium-light: #eaeaea;
 
 body {
   padding-top: 110px;
+  background-color: rgb(202, 244, 250);
 }
 
 section {
@@ -19,12 +20,38 @@ textarea {
   resize: vertical;
 }
 
+
+/* home */
+
+
 .center {
   text-align: center;
+  background-color: rgb(140, 231, 243);
   h1 {
     margin-bottom: 10px;
   }
 }
+
+.home{
+
+  h1 {
+    font-size: 3em;
+    letter-spacing: 1px;
+    margin-bottom: 50px;
+    text-align: center;
+  }
+  
+  h2 {
+    font-size: 1.5em;
+    letter-spacing: 0.7px;
+    margin-bottom: 25px;
+    text-align: center;
+    font-weight: normal;
+    line-height: 26px;
+    /*color: $gray-light;*/
+  }
+}
+
 
 .font-bold{
   font-weight: bold;
@@ -118,8 +145,7 @@ ul.nav a:hover { color: rgb(24, 24, 24) !important; }
   margin-right: 5%;
   padding-top: 11.5px;
   background-color: rgb(189, 184, 184);
-  border: white
-  ;
+  border: white;
 }
 
 
@@ -310,3 +336,7 @@ span.picture {
     border: 0;
   }
 }
+
+
+
+
