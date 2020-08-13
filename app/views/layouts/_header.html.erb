@@ -1,7 +1,7 @@
 
 <header class="navbar navbar-fixed-top navbar-inverse" style="background-color:white;>
   <div class="container">
-    <%= link_to "Prise App", signup_path, id: "logo" %>
+    <%= link_to "Prise App", root_path, id: "logo" %>
     <nav>
       <ul class="nav navbar-nav navbar-right">
         <% if logged_in? %>
@@ -20,7 +20,20 @@
             </ul>
           </li>
         <% else %>
-          <li><%= link_to "Log in", login_path %></li>
+      
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+
+        </div>
+
+          <ul id="navbar" class ="sign_logo navbar-nav navbar-right navbar-collapse collapse">
+          <li><%= link_to "新規登録", signup_path %></li>
+          <li><%= link_to "ログイン", login_path %></li>
+         </ul>
         <% end %>
       </ul>
     </nav>

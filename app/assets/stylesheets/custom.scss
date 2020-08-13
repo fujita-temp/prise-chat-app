@@ -8,7 +8,7 @@ $gray-medium-light: #eaeaea;
 /* universal */
 
 body {
-  padding-top: 90px;
+  padding-top: 110px;
 }
 
 section {
@@ -72,22 +72,57 @@ p {
 }
 
 
+
 /* header */
+
+header {
+  height:70px;
+ }
 
 #logo {
   float: left;
   margin-right: 10px;
-  font-size: 1.7em;
+  margin-left: 5%;
+  font-size: 2.2em;
   color: black;
   text-transform: uppercase;
   letter-spacing: -1px;
-  padding-top: 9px;
+  padding-top: 11.5px;
   font-weight: bold;
   &:hover {
-    color: white;
+    color: black;
     text-decoration: none;
   }
 }
+
+
+.sign_logo{
+  overflow: hidden;
+  float: right;
+  margin-right: 5%;
+  padding-top: 5px;
+  line-height: 30px;
+  font-size: 1.4em;
+  white-space: nowrap;
+  list-style-type: none;
+  &:hover {
+    color: black;
+    text-decoration: none;
+  }
+}
+
+ul.nav a:hover { color: rgb(24, 24, 24) !important; }
+
+
+.navbar-toggle{
+  margin-right: 5%;
+  padding-top: 11.5px;
+  background-color: rgb(189, 184, 184);
+  border: white
+  ;
+}
+
+
 
 
 /* footer */
