@@ -16,9 +16,6 @@ gem 'bcrypt'
 # Bootstrapを使うために追記（５章参照）
 gem 'bootstrap-sass'
 gem 'jquery-rails'
-#サイト参照
-gem 'uglifier'
-gem 'bootstrap'
 
 #サンプルユーザー作成のために追記（10章参照）
 gem 'faker'
