@@ -1,5 +1,7 @@
 Rails.application.routes.draw do
   
+  get 'likes/create'
+  get 'likes/destroy'
   get 'static_pages/home'
   get 'static_pages/help'
   root 'static_pages#home'
@@ -14,6 +16,7 @@ Rails.application.routes.draw do
   end
   resources :microposts,          only: [:create, :destroy]
   resources :relationships,       only: [:create, :destroy]
+  resources :likes,               only: [:create, :destroy]
   
 
   #rootが変更された時のための保険
