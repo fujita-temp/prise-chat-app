@@ -1,5 +1,8 @@
 <%= form_for(@micropost) do |f| %>
     <%= render 'shared/error_messages', object: f.object %>
+    <span class="dstuser">
+      <%= f.text_field :dstuser, placeholder: "Compose new dstuser..." %>
+    </span>
     <div class="field">
       <%= f.text_area :content, placeholder: "Compose new micropost..." %>
     </div>
