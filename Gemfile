@@ -27,6 +27,11 @@ gem 'faker'
 gem 'will_paginate'
 gem 'bootstrap-will_paginate'
 
+#”〜前”を日本語表記に変更するために追記
+gem 'rails-i18n'
+
+
+
 # Use Puma as the app server
 gem 'puma', '~> 4.1'
 # Use SCSS for stylesheets

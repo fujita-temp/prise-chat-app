@@ -5,6 +5,7 @@
 
 $gray-medium-light: #eaeaea;
 
+
 /* universal */
 
 body {
@@ -35,13 +36,16 @@ textarea {
 .home{
 
   h1 {
-    font-size: 3em;
+    font-family: serif;
+    font-size: 2.8em;
     letter-spacing: 1px;
     margin-bottom: 50px;
     text-align: center;
+    font-weight: bold;
   }
   
   h2 {
+    font-family: serif;
     font-size: 1.5em;
     letter-spacing: 0.7px;
     margin-bottom: 25px;
@@ -51,6 +55,31 @@ textarea {
     /*color: $gray-light;*/
   }
 }
+
+/*home_login*/
+
+.row{
+  font-family: serif;
+}
+
+.profile{
+  h1{
+    text-align: left;
+    font-size: 2.8em;
+  }
+  h2{
+    text-align: left;
+    font-size: 1.0em;
+  }
+}
+
+.stats{
+  text-align: right;
+  font-size: 1.1em;
+}
+
+
+
 
 
 .font-bold{
@@ -107,6 +136,7 @@ header {
  }
 
 #logo {
+  font-family: serif;
   float: left;
   margin-right: 10px;
   margin-left: 5%;
@@ -124,6 +154,7 @@ header {
 
 
 .sign_logo{
+  font-family: serif;
   overflow: hidden;
   float: right;
   margin-right: 5%;
@@ -149,6 +180,16 @@ ul.nav a:hover { color: rgb(24, 24, 24) !important; }
 }
 
 
+/*新規登録*/
+
+.register{
+  font-family: serif;
+}
+
+/*ログイン画面*/
+.login{
+  font-family: serif;
+}
 
 
 /* footer */

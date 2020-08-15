@@ -1,3 +1,5 @@
+<% provide(:title, "ホーム") %>
+
 <% if logged_in? %>
   <div class="row">
     <aside class="col-md-4">
@@ -5,9 +7,11 @@
         <%= render 'shared/user_info' %>
       </section>
       <section class="stats">
-      <%= render 'shared/stats' %>
+      <br><%= render 'shared/stats' %>
       </section>
       <section class="micropost_form">
+        <br>
+        <br>
         <%= render 'shared/micropost_form' %>
       </section>
     </aside>
