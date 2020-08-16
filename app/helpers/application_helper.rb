@@ -2,7 +2,7 @@ module ApplicationHelper
 
     # ページごとの完全なタイトルを返します。
     def full_title(page_title = '')
-      base_title = "Prise App"
+      base_title = "Prise Message App"
       if page_title.empty?
         base_title
       else

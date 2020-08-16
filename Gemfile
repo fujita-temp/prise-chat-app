@@ -30,6 +30,8 @@ gem 'bootstrap-will_paginate'
 #”〜前”を日本語表記に変更するために追記
 gem 'rails-i18n'
 
+#awesome-railsを使うために追記
+gem 'font-awesome-sass'
 
 
 # Use Puma as the app server

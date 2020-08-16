@@ -56,6 +56,7 @@ textarea {
   }
 }
 
+
 /*home_login*/
 
 .row{
@@ -157,7 +158,6 @@ header {
   margin-left: 5%;
   font-size: 2.2em;
   color: black;
-  text-transform: uppercase;
   letter-spacing: -1px;
   padding-top: 11.5px;
   font-weight: bold;
@@ -203,6 +203,13 @@ ul.nav a:hover { color: rgb(24, 24, 24) !important; }
 
 /*ログイン画面*/
 .login{
+  font-family: serif;
+}
+
+
+/*ユーザーリスト*/
+
+.userlist{
   font-family: serif;
 }
 
@@ -361,7 +368,7 @@ input, textarea, select, .uneditable-input {
   }
   .content {
     display: block;
-    margin-left: 60px;
+    margin-left: 0px;
     img {
       display: block;
       padding: 5px 0;
