@@ -60,12 +60,23 @@ textarea {
 
 .row{
   font-family: serif;
+  h1{
+    text-align: left;
+    font-size: 1.1em;
+  }
 }
+
+.user_name{
+  text-align: left;
+  font-size: 2.4em;
+}
+
+
 
 .profile{
   h1{
     text-align: left;
-    font-size: 2.8em;
+    font-size: 2.6em;
   }
   h2{
     text-align: left;
@@ -76,6 +87,10 @@ textarea {
 .stats{
   text-align: right;
   font-size: 1.1em;
+}
+
+.timestamp{
+  text-align: right;
 }
 
 
